@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
-import { FormField } from '../screen/types';
+import { FormField } from '../screens/types';
 import { RootState } from '../store';
 import { updateField } from '../store/formSlice';
 

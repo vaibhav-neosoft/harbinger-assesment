@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { FormData } from '../screen/types';
+import { FormData } from '../screens/types';
 import { formData } from '../assets/formData';
 
 

@@ -114,7 +114,7 @@ const PollSummary: React.FC = () => {
                 <Text style={styles.successText}>Poll Submitted Succesfully</Text>
                 <Text style={styles.title}>Poll Summary</Text>
                 {renderVoteSummary()}
-                <Button title="Reset Poll Data" onPress={() => dispatch(resetVotes(pollId))} />
+               {pollId!=0 && <Button title="Reset Poll Data" onPress={() => dispatch(resetVotes(pollId))} />}
             </View>
         </ScrollView>
     );

@@ -1,12 +1,12 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import PollDetail from '../screen/PollDetail';
-import PollList from '../screen/PollList';
-import FlowSelection from '../screen/FlowSelection';
-import PollSummary from '../screen/PollSummary';
-import DynamicForm from '../screen/DynamicForm';
-import FormDetailScreen from '../screen/FormDetail';
+import PollDetail from '../screens/PollDetail';
+import PollList from '../screens/PollList';
+import FlowSelection from '../screens/FlowSelection';
+import PollSummary from '../screens/PollSummary';
+import DynamicForm from '../screens/DynamicForm';
+import FormDetailScreen from '../screens/FormDetail';
 
 const Stack = createStackNavigator();
 

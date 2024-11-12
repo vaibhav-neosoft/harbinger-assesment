@@ -18,22 +18,16 @@ const PollDetail: React.FC = () => {
   const [responses, setResponses] = useState<{ [key: number]: number | null }>({});
   const [error, setError] = useState<string | null>(null);
 
-  if (!poll) {
-    return <Text>Poll not found</Text>;
-  }
-
   const handleVote = (questionId: number, answerId: number, questionType: string) => {
     setResponses((prev) => ({ ...prev, [questionId]: answerId }));
     dispatch(submitVote({ pollId, questionId, answerId }));
     setError(null);
 
-    if (questionType === 'yes-no') {
-      if (answerId === 2) {
-        setShowAllQuestions(false);
-        handleSubmitPoll();
-      } else {
-        setShowAllQuestions(true);
-      }
+    if (questionType === 'yes-no' && answerId==2) {
+      setShowAllQuestions(false);
+    }
+    else {
+      setShowAllQuestions(true);
     }
   };
 
@@ -57,7 +51,7 @@ const PollDetail: React.FC = () => {
       CommonActions.reset({
         index: 1,
         routes: [
-          { name: 'PollList' },
+          { name: 'FlowSelection' },
           { name: 'PollSummary', params: { pollId: pollId } },
         ],
       })
