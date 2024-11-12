@@ -1,0 +1,79 @@
+[
+    {
+      "id": 1,
+      "title": "Suvery for Next PM of India",
+      "questions": [
+        {
+            "id": 1,
+            "type": "yes-no",
+            "text": "Do you want vote here?",
+            "options": [
+              { "id": 1, "text": "Yes" },
+              { "id": 2, "text": "No" }
+            ]
+          },
+        {
+          "id": 2,
+          "type": "single-choice",
+          "text": "Whom you want to be next Prime Minister of India?",
+          "options": [
+            { "id": 1, "text": "Narendra Modi" },
+            { "id": 2, "text": "Rahul Gandhi" },
+            { "id": 3, "text": "Arvind Kejriwal" },
+            { "id": 4, "text": "Other" }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "rating",
+          "text": "Rate your satisfaction with our survey experience.",
+          "options": [
+            { "id": 1, "text": "1 - Very Dissatisfied" },
+            { "id": 2, "text": "2 - Dissatisfied" },
+            { "id": 3, "text": "3 - Neutral" },
+            { "id": 4, "text": "4 - Satisfied" },
+            { "id": 5, "text": "5 - Very Satisfied" }
+          ]
+        }
+      ]
+    },
+    {
+        "id": 2,
+        "title": "Suvery for Next Captain of Indian Mens Cricket Team?",
+        "questions": [
+          {
+              "id": 1,
+              "type": "yes-no",
+              "text": "Do you want vote here?",
+              "options": [
+                { "id": 1, "text": "Yes" },
+                { "id": 2, "text": "No" }
+              ]
+            },
+          {
+            "id": 2,
+            "type": "single-choice",
+            "text": "Whom you want to be next Captain of Indian Mens Cricket Team?",
+            "options": [
+              { "id": 1, "text": "Rishabh Pant" },
+              { "id": 2, "text": "Shubhman Gill" },
+              { "id": 3, "text": "Hardik Pandya" },
+              { "id": 4, "text": "Other" }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "rating",
+            "text": "Rate your satisfaction with our survey experience.",
+            "options": [
+              { "id": 1, "text": "1 - Very Dissatisfied" },
+              { "id": 2, "text": "2 - Dissatisfied" },
+              { "id": 3, "text": "3 - Neutral" },
+              { "id": 4, "text": "4 - Satisfied" },
+              { "id": 5, "text": "5 - Very Satisfied" }
+            ]
+          }
+        ]
+      }
+  ]
+  

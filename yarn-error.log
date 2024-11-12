@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/neosoft/.nvm/versions/node/v20.5.1/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add @reduxjs/toolkit react-redux
+
+PATH: 
+  /Users/neosoft/.nvm/versions/node/v20.5.1/bin:/Users/neosoft/.rbenv/shims:/Users/neosoft/.rbenv/bin:/Users/neosoft/Library/pnpm:/Users/neosoft/bin:/opt/homebrew/opt/openjdk@17/bin:/Users/neosoft/Library/Android/sdk/tools/bin:/Users/neosoft/Library/Android/sdk/tools:/Users/neosoft/Library/Android/sdk/platform-tools:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/neosoft/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/neosoft/Desktop/DynamicPollingApp/node_modules/@expo/cli/node_modules/color-convert'
+
+npm manifest: 
+  {
+    "name": "dynamicpollingapp",
+    "version": "1.0.0",
+    "main": "expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~51.0.28",
+      "expo-status-bar": "~1.12.1",
+      "react": "18.2.0",
+      "react-native": "0.74.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/react": "~18.2.45",
+      "typescript": "^5.1.3"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
